@@ -6,20 +6,20 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>RUBYLIB="$TM_BUNDLE_SUPPORT/lib:$RUBYLIB"
-#"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/generate.rb" &amp;&gt;/dev/null &amp;
-"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/generate.rb"
-</string>
+"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/jump_to_method_definition.rb"</string>
+	<key>fallbackInput</key>
+	<string>word</string>
 	<key>input</key>
-	<string>none</string>
+	<string>selection</string>
 	<key>keyEquivalent</key>
-	<string>^|</string>
+	<string>^f</string>
 	<key>name</key>
-	<string>Call Generate Script</string>
+	<string>Jump to Method Definition</string>
 	<key>output</key>
 	<string>showAsTooltip</string>
 	<key>scope</key>
-	<string>source.ruby.rails, source.yaml</string>
+	<string>source.ruby.rails, text.html.ruby, text.haml, source.ruby</string>
 	<key>uuid</key>
-	<string>4904EDC7-5ED3-4132-AAB2-C2AD87C97EFE</string>
+	<string>AECD46CF-9031-4059-B386-262DBABD97B1</string>
 </dict>
 </plist>

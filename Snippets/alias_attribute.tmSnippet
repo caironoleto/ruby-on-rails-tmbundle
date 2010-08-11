@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$LABEL</string>
+	<string>alias_attribute :${1:new_name}, :${2:old_name}</string>
 	<key>name</key>
-	<string>$LABEL</string>
+	<string>alias_attribute</string>
 	<key>scope</key>
-	<string>source.yaml</string>
+	<string>source.ruby.rails</string>
 	<key>tabTrigger</key>
-	<string>$L</string>
+	<string>alias</string>
 	<key>uuid</key>
-	<string>786980D8-FA69-4542-85A3-5E48CFAA6814</string>
+	<string>5694BA8B-64EC-4B1B-A00D-6366D28500C5</string>
 </dict>
 </plist>

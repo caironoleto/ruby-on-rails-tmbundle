@@ -3,7 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
+<<<<<<< HEAD
 	<string>image_tag(${1:image})</string>
+=======
+	<string>${TM_RAILS_TEMPLATE_START_RUBY_EXPR}image_tag "$1${2:.png}"${3:${4:, :title =&gt; "${5:title}"}${6:, :class =&gt; "${7:class}"}}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}</string>
+>>>>>>> 11dc3ca425ca19274815533bd3953862c898ea07
 	<key>name</key>
 	<string>image_tag</string>
 	<key>scope</key>
@@ -11,6 +15,10 @@
 	<key>tabTrigger</key>
 	<string>it</string>
 	<key>uuid</key>
+<<<<<<< HEAD
 	<string>D141F02C-D7E4-426B-B478-C660C2A577B8</string>
+=======
+	<string>4EA6FBD1-CDEA-4DF6-9F70-A1EDA35AC3D7</string>
+>>>>>>> 11dc3ca425ca19274815533bd3953862c898ea07
 </dict>
 </plist>

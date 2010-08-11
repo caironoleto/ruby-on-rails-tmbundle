@@ -1,26 +1,28 @@
-TextMate bundle for Ruby on Rails development
-
-GET IT NOW: with Rails 2.0 support.
+# TextMate bundle for Ruby on Rails development
 
 To install with Git:
 
-  mkdir -p ~/Library/Application\ Support/TextMate/Bundles
-  cd ~/Library/Application\ Support/TextMate/Bundles
-  git clone git://github.com/drnic/ruby-on-rails-tmbundle.git "Ruby on Rails.tmbundle"
-  osascript -e 'tell app "TextMate" to reload bundles'
+    mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+    cd ~/Library/Application\ Support/TextMate/Bundles
+    git clone git://github.com/drnic/ruby-on-rails-tmbundle.git "Ruby on Rails.tmbundle"
+    osascript -e 'tell app "TextMate" to reload bundles'
 
 
 To install without Git:
 
-  mkdir -p ~/Library/Application\ Support/TextMate/Bundles
-  cd ~/Library/Application\ Support/TextMate/Bundles
-  wget http://github.com/drnic/ruby-on-rails-tmbundle/tarball/master
-  tar zxf drnic-ruby-on-rails-tmbundle*.tar.gz
-  rm drnic-ruby-on-rails-tmbundle*.tar.gz
-  mv drnic-ruby-on-rails-tmbundle* "Ruby on Rails.tmbundle"
-  osascript -e 'tell app "TextMate" to reload bundles'
+    mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+    cd ~/Library/Application\ Support/TextMate/Bundles
+    wget http://github.com/drnic/ruby-on-rails-tmbundle/tarball/master
+    tar zxf drnic-ruby-on-rails-tmbundle*.tar.gz
+    rm drnic-ruby-on-rails-tmbundle*.tar.gz
+    mv drnic-ruby-on-rails-tmbundle* "Ruby on Rails.tmbundle"
+    osascript -e 'tell app "TextMate" to reload bundles'
 
-Rails 2.0 (copied from CHANGELOG)
+## Rails 3.0 contributors
+
+* Kamil Kukura (rake migrate timestamp patch)
+
+## Rails 2.0 features/contributors (copied from CHANGELOG)
 
 * Snippets/Commands for:
   * Tests
@@ -54,3 +56,5 @@ Rails 2.0 (copied from CHANGELOG)
   * Footnote
     * footnote-edge uses .erb for templates [thx Stephen Bannasch]
 
+* Ian's extra notes:
+  * I've noticed that the install plugin command doesn't work under Ruby 1.9.*

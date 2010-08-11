@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>assert_redirected_to ${10:${2:model}s_path}</string>
+	<string>config.gem "${1:name}"${2:${3:, :lib =&gt; ${4:"${5:$1}"}}${6:, :version =&gt; "${7:&gt;= 1.0.0}"}}</string>
 	<key>name</key>
-	<string>assert_redirected_to (path plural)</string>
+	<string>config.gem</string>
 	<key>scope</key>
 	<string>source.ruby.rails</string>
 	<key>tabTrigger</key>
-	<string>asrt</string>
+	<string>config.gem</string>
 	<key>uuid</key>
-	<string>0249637E-0720-46DA-A8FD-E176A2CC458B</string>
+	<string>47A6800A-DC7E-4F72-AA0D-CEE2488E1618</string>
 </dict>
 </plist>
